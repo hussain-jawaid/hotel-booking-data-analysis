@@ -25,15 +25,18 @@ The imaginary hotel company has noticed a **decline in revenue and market share*
    Why is the hotel losing revenue and market share?
 
 2. **Data Collection**  
-   Datasets in CSV format provided in the `datasets/` folder.
+   Datasets in CSV format are provided in the `datasets/` folder.
 
 3. **Data Cleaning**  
    Handling missing values, incorrect types, and duplicates.
 
-4. **Data Transformation**  
+4. **Exploratory Data Analysis (EDA)**  
+   Exploring the data using Pandas to understand its structure, detect inconsistencies, and identify where transformations or cleaning are needed.
+
+5. **Data Transformation**  
    Feature engineering and formatting for deeper analysis.
 
-5. **Insight Generation**  
+6. **Insight Generation**  
    Observations and key insights to guide potential decisions.
 
 ---
@@ -43,9 +46,16 @@ The imaginary hotel company has noticed a **decline in revenue and market share*
 - Average occupancy rate in each of the room categories.
 - Average occupancy rate per city.
 - When was the occupancy better? Weekday or weekend.
-- In the month of june, what was the occupancy for different cities.
-- What is the revenue realized per city.
+- In June, what was the occupancy for different cities?
+- What is the revenue realized per city?
 
 ---
 
 This project also served as a practical exercise to strengthen skills in **Pandas** and real-world **data analysis workflows**.
+
+## 💻 Installation
+
+```bash
+pip install -r requirements.txt
+Once the dependencies are installed, you can open the Jupyter Notebook:
+python -m notebook
